@@ -1,0 +1,20 @@
+**/credentials.*
+**/target/
+/s4hana_pipeline
+**/*.log
+**/*.trc
+**/.settings/
+**/.project
+**/.classpath
+**/.idea
+**/*.iml
+**/.vscode
+**/node_modules
+**/.DS_Store
+docs/.sass-cache/
+docs/_site/echo "# address-manager" >> README.md
+           git init
+           git add .
+           git commit -m "first commit"
+           git remote add origin https://github.com/I828502/address-manager.git
+           git push -u origin master
